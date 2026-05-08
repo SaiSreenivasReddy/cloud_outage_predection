@@ -1,0 +1,26 @@
+.env
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pkl
+.DS_Store
+.venv/
+
+# Data folders (generated/runtime)
+data/raw_data/
+data/good_data/
+data/bad_data/
+data/archived_data/
+
+# Great Expectations runtime artifacts (keep gx/ committed for config)
+gx/uncommitted/
+gx/gx_datadocs/
+
+# Airflow logs
+airflow_logs/
+
+# Pytest cache
+.pytest_cache/
+
+# Model file (regenerated on startup)
+data/model.pkl
