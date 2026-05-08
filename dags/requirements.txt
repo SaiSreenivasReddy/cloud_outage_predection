@@ -1,0 +1,17 @@
+# =============================================================================
+# Airflow DAGs requirements
+# These packages must be installed inside the Airflow 3.x containers
+# =============================================================================
+
+# Great Expectations v1.x (GX Core)
+# NOTE: GX 1.3.x requires pandas < 2.2
+great-expectations==1.3.10
+
+# HTTP client for sending Teams alerts
+requests==2.32.3
+
+# pandas — GX 1.3.x constraint is pandas < 2.2
+pandas>=1.3.0,<2.2
+
+# Airflow Postgres provider — version compatible with Airflow 3.x
+apache-airflow-providers-postgres>=6.0.0
