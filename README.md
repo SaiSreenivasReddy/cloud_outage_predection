@@ -1,6 +1,6 @@
 # Cloud Outage Prediction System
 
-This is our end-to-end Machine Learning production system. We built it to predict **how long a cloud outage will last (in hours)** based on incident data like severity, system load, and affected customers. This project was developed for **Defense 1** of the Data Science in Production course.
+Cloud Outage Prediction is a Python-based machine learning project designed to help anticipate cloud service disruptions by learning patterns from historical operational data (such as metrics, logs, and incident timelines). It provides an end-to-end workflow for preparing data, training and evaluating predictive models, and generating outage-risk predictions that can be used for early warning and proactive mitigation. The repository is built primarily in Python and includes Docker and shell tooling for reproducible runs, along with lightweight UI/report styling assets where applicable, making it easier to experiment locally and deploy consistently across environments.
 
 ---
 
